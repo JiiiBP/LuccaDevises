@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuccaDevises", "LuccaDevises\LuccaDevises.csproj", "{46009327-DA4E-4FFF-9223-B64240521CAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuccaDevisesTESTS", "LuccaDevisesTESTS\LuccaDevisesTESTS.csproj", "{C92EA1C7-E0DD-412A-A7F3-0C9131F8FCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46009327-DA4E-4FFF-9223-B64240521CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46009327-DA4E-4FFF-9223-B64240521CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46009327-DA4E-4FFF-9223-B64240521CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46009327-DA4E-4FFF-9223-B64240521CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92EA1C7-E0DD-412A-A7F3-0C9131F8FCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92EA1C7-E0DD-412A-A7F3-0C9131F8FCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92EA1C7-E0DD-412A-A7F3-0C9131F8FCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92EA1C7-E0DD-412A-A7F3-0C9131F8FCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99FBA063-C23B-4D7D-8B45-D2FE73EABF26}
+	EndGlobalSection
+EndGlobal

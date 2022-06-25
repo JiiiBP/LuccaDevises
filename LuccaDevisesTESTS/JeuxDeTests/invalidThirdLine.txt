@@ -1,0 +1,3 @@
+EUR;550;JPY
+1
+invalid
