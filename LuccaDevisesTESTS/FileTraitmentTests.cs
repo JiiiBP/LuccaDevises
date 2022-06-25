@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using LuccaDevises;
-using LuccaDevisesIRepositories;
-using LuccaDevisesModels;
+﻿using LuccaDevisesModels;
 using LuccaDevisesRepositories;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -25,7 +21,7 @@ public class FileTraitmentTests
         string[] files = Directory.GetFiles($"{DATA_FOLDER_PATH_TEST}");
         int NbExceptions = 0;
         var MyInvalidFiles = files.Where(a => a.Contains("invalid")).ToList();
-        MyInvalidFiles.Add("UnFichierQuiNexistePas.txt");
+        MyInvalidFiles.Add($"{DATA_FOLDER_PATH_TEST}/UnFichierQuiNexistePas.txt");
         foreach (string file in MyInvalidFiles)
         {
             try
